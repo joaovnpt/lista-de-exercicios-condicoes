@@ -1,0 +1,14 @@
+<script>
+    const n1 = prompt("Infome um número").trim().replace(".",",")
+    const n2 = prompt("Informe outro número").trim().replace(".",",")
+    const n3 = prompt("Informe mais um número").trim().replace(".",",")
+    if (n3 < n2 && n3 < n1) {
+        alert("O terceiro número é o menor")
+    }
+    else if (n2 < n3 && n2 < n1) {
+        alert("O segundo número é o menor")
+    }
+    else {
+        alert("O primeiro número é o menor")
+    }
+</script>

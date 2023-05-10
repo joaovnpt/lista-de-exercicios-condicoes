@@ -1,0 +1,15 @@
+<script>
+    const nota1 = Number(prompt("Informe sua nota no primeiro trimestre").trim().replace(".",","))
+    const nota2 = Number(prompt("Informe sua nota no segundo trimestre").trim().replace(".",","))
+    const nota3 = Number(prompt("Informe sua nota no terceiro trimestre").trim().replace(".",","))
+    const media = (nota1 + nota2 + nota3) / 3
+    if (media < 4) {
+        alert("Você está reprovado")
+    }
+    else if (media < 6 && media > 4) {
+        alert("Você ficou de exame")
+    }
+    else if (media >= 6) {
+        alert("Você está aprovado")
+    }
+</script>
